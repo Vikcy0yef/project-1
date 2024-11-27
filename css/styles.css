@@ -1,0 +1,138 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img,
+picture {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #f4d04e;
+  min-width: 320px;
+  max-width: 327px;
+  padding: 156px 0 155px 0;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 8px 8px 0 0 #000;
+  background: #fff;
+  border: 1px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 327px;
+  padding: 24px;
+  height: 501px;
+}
+
+.card-imag {
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.card-button {
+  font-family: "Figtree";
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 4px 12px;
+  text-align: center;
+  background: #f4d04e;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.card-date {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+}
+
+.card-img {
+  width: 32px;
+  height: 32px;
+}
+
+.card-author {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #111;
+  padding-top: 5px;
+}
+
+.card-author-image {
+  display: flex;
+  gap: 12px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    padding: 219px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 384px;
+    height: 522px;
+  }
+
+  .card-button {
+    width: 82px;
+    height: 29px;
+    font-size: 14px;
+  }
+
+  .card-date {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-title:hover {
+    color: #f4d04e;
+  }
+
+  .card-description {
+    font-size: 16px;
+  }
+}
